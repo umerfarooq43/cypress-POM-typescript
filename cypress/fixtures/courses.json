@@ -1,0 +1,17 @@
+[
+  {
+      "name": "All-Access Membership-Complete Access to 25+ Courses (and counting!)",
+      "author": "Rahul Shetty",
+      "imgURL": "/assets/images/courses/all-access-membership-complete-access-to-25-courses-and-counting_1622753364_all2.jpg",
+      "courseURL": "https://courses.rahulshettyacademy.com/p/get-access-to-all-courses",
+      "old_price": 15000,
+      "old_price_in_dollar": 199,
+      "actual_price": 7000,
+      "actual_price_in_dollar": 99,
+      "noOfCourses": 25,
+      "userEnrolled": 1200,
+      "userComments": 1,
+      "rate": 1,
+      "isBundle": true
+  }
+]
