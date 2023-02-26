@@ -1,0 +1,21 @@
+{
+  "name": "cypress_with_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-headed": "cypress run --headed", 
+    "cypress-headless": "cypress run --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.6.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
+  }
+}
