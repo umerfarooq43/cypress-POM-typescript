@@ -52,6 +52,10 @@ describe('Easygenerator automation assignemnt - of rahul shetty practice website
         });
         cy.get('#openwindow').click();
         cy.get('@windowOpen').should('be.calledWith', newUrl);
+        cy.window().then(win => {
+            win.location.href = newUrl;
+          });
+        cy.get('.tools').should('contain', 'info@qaclickacademy.com')
       })
 
     it('Mock the request using fixture file', () => {
