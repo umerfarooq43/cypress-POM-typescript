@@ -59,7 +59,10 @@ describe('Easygenerator automation assignemnt - of rahul shetty practice website
       })
 
     it('Mock the request using fixture file', () => {
-        cy.visit(Cypress.env('base_url'))
         cy.intercept('GET', '/api/course', { fixture: 'courses.json' }).as('getAllCourses')
+        cy.visit(Cypress.env('base_url'))
+        cy.wait('@getAllCourses').then( () => {
+            cy.get('#courses-block').should('contain', 'All-Access Membership-Complete Access to 25+ Courses (and counting!)')
+        })
     })
   })
